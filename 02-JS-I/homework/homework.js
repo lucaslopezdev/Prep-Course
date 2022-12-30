@@ -226,7 +226,7 @@ function esVocal(letra){
 
   let letraEnMinuscula = letra.toLowerCase();
 
-  if ((letraEnMinuscula == 'a' || letraEnMinuscula == 'e' ||letraEnMinuscula == 'i' ||letraEnMinuscula == 'o' ||letraEnMinuscula == 'u' ) && letra.length < 2){
+  if ((letraEnMinuscula === 'a' || letraEnMinuscula === 'e' ||letraEnMinuscula === 'i' ||letraEnMinuscula === 'o' ||letraEnMinuscula === 'u' ) && letra.length < 2){
     return 'Es vocal'
   } else return 'Dato incorrecto'
 }
